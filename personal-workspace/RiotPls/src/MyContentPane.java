@@ -1,0 +1,17 @@
+import java.awt.BorderLayout;
+import java.awt.Dimension;
+
+import javax.swing.*;
+
+
+public class MyContentPane extends JPanel {
+
+	public MyContentPane(){
+		this.setLayout(new BorderLayout());
+		this.setPreferredSize(new Dimension(300, 400));
+		ButtonPanel buttonPanel = new ButtonPanel();
+		InfoPanel infoPanel = new InfoPanel();
+		this.add(BorderLayout.WEST, buttonPanel);
+		this.add(BorderLayout.CENTER, infoPanel);
+	}
+}

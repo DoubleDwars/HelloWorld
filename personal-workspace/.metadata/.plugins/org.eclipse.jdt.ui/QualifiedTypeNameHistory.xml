@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.swing.plaf.synth.Region"/>
+<fullyQualifiedTypeName name="lolapi.dto.League.League"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="lolapi.dto.Summoner.MasteryPages"/>
+<fullyQualifiedTypeName name="lolapi.dto.Summoner.RunePages"/>
+<fullyQualifiedTypeName name="lolapi.dto.Stats.PlayerStatsSummaryList"/>
+<fullyQualifiedTypeName name="lolapi.dto.Stats.RankedStats"/>
+<fullyQualifiedTypeName name="lolapi.dto.Champion.Champion"/>
+<fullyQualifiedTypeName name="lolapi.dto.staticdata.Champion.Champion"/>
+<fullyQualifiedTypeName name="lolapi.dto.staticdata.Champion.ChampionList"/>
+<fullyQualifiedTypeName name="lolapi.dto.Team.Team"/>
+<fullyQualifiedTypeName name="lolapi.dto.staticdata.Item.Item"/>
+<fullyQualifiedTypeName name="lolapi.dto.staticdata.Item.ItemList"/>
+<fullyQualifiedTypeName name="lolapi.dto.staticdata.Mastery.Mastery"/>
+<fullyQualifiedTypeName name="lolapi.dto.staticdata.Mastery.MasteryList"/>
+<fullyQualifiedTypeName name="lolapi.dto.staticdata.Realm.Realm"/>
+<fullyQualifiedTypeName name="lolapi.dto.staticdata.Rune.Rune"/>
+<fullyQualifiedTypeName name="lolapi.dto.staticdata.Rune.RuneList"/>
+<fullyQualifiedTypeName name="lolapi.dto.staticdata.SummonerSpell.SummonerSpell"/>
+<fullyQualifiedTypeName name="lolapi.dto.staticdata.SummonerSpell.SummonerSpellList"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="javax.swing.JPanel"/>
+<fullyQualifiedTypeName name="java.awt.Dimension"/>
+<fullyQualifiedTypeName name="java.awt.BorderLayout"/>
+<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+<fullyQualifiedTypeName name="lolapi.query.LeagueApi"/>
+<fullyQualifiedTypeName name="lolapi.dto.Region"/>
+<fullyQualifiedTypeName name="lolapi.dto.Season"/>
+<fullyQualifiedTypeName name="lolapi.dto.LeagueType"/>
+<fullyQualifiedTypeName name="lolapi.dto.Summoner.Summoner"/>
+<fullyQualifiedTypeName name="lolapi.dto.Game.RecentGames"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="lolapi.dto.Game.Games"/>
+<fullyQualifiedTypeName name="main.java.riotapi.RiotApi"/>
+<fullyQualifiedTypeName name="dto.Summoner.Summoner"/>
+<fullyQualifiedTypeName name="constant.Region"/>
+<fullyQualifiedTypeName name="dto.Stats.RankedStats"/>
+<fullyQualifiedTypeName name="dto.Champion.ChampionList"/>
+<fullyQualifiedTypeName name="dto.Champion.Champion"/>
+</qualifiedTypeNameHistroy>
