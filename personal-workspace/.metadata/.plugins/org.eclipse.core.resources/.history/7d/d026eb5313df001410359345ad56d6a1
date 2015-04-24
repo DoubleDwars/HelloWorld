@@ -1,0 +1,22 @@
+import javax.swing.*;
+
+
+public class InfoPanel extends JPanel {
+
+	JTextArea textArea = new JTextArea();
+	static String summoner = "";
+	String level = "";
+	
+	public InfoPanel(){
+		this.add(textArea);
+		textArea.setText("Test");
+	}
+	
+	public void changeTextArea(){
+		textArea.setText(
+				"Summoner: " + '\n' + summoner + '\n' + '\n' +
+				"Level:" + '\n' + level
+				);
+	}
+	
+}
