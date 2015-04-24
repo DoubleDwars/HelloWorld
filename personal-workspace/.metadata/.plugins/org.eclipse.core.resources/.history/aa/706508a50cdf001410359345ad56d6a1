@@ -1,0 +1,11 @@
+import main.java.riotapi.RiotApi;
+
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		RiotApi api = new RiotApi("839b7472-2b5c-4d3a-a0d7-cf2caf53530f");
+
+	}
+
+}

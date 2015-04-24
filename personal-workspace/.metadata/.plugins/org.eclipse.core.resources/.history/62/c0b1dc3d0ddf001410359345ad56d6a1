@@ -1,0 +1,28 @@
+import java.util.Map;
+
+import constant.Region;
+import dto.Summoner.Summoner;
+import main.java.riotapi.RiotApi;
+import main.java.riotapi.RiotApiException;
+import com.google.gson.*;
+
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		RiotApi api = new RiotApi("839b7472-2b5c-4d3a-a0d7-cf2caf53530f");
+		
+		api.setRegion(Region.NA);
+		try {
+			Map<String, Summoner> summoners = api.getSummonerById("rithms, tryndamere");
+			Summoner summoner = summoners.get("rithms");
+			long id = summoner.getId();
+			System.out.println(id);
+		} catch (RiotApiException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+
+}

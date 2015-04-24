@@ -1,0 +1,16 @@
+import java.awt.Dimension;
+
+import javax.swing.*;
+
+
+public class ButtonPanel extends JPanel {
+
+	public ButtonPanel(){
+		JTextField textField = new JTextField();
+		JButton searchButton = new JButton("Search");
+		textField.setPreferredSize(new Dimension(150, 20));
+		this.add(textField);
+		this.add(searchButton);
+	}
+	
+}

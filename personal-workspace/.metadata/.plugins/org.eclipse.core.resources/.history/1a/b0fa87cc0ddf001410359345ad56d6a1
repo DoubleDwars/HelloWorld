@@ -1,0 +1,53 @@
+import java.util.Map;
+
+import lolapi.*;
+
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		LeagueApi api = new LeagueApi("839b7472-2b5c-4d3a-a0d7-cf2caf53530f");
+		
+		String[] names = new String[]{"Dyrus"};
+        int id = 5908;
+        String[] ids = new String[]{"5908"};
+        String[] teamIds = new String[]{"TEAM-1c3a53f0-fbd4-11e3-9c89-782bcb4d1861"};
+        Region region = Region.NA;
+        Season season = Season.SEASON_4;
+        LeagueType leagueType = LeagueType.T5;
+        int summonerSpellId = 1;
+
+
+                  Map<String, Summoner> a = api.getSummonerByName(names, region);
+                            RecentGames b = api.getGame(id, region);
+
+            Map<String, List<League>>   c1 = api.getLeagueBySummonerId(ids, region);
+            Map<String, List<League>>   c2 = api.getLeagueEntryBySummonerId(ids, region);
+            Map<String, List<League>>   c3 = api.getLeagueByTeamId(teamIds, region);
+            Map<String, List<League>>   c4 = api.getLeagueEntryByTeamId(teamIds, region);
+                               League   c5 = api.getLeagueChallengers(region, leagueType);
+
+            Map<String, MasteryPages>   d = api.getMasteries(ids, region);
+                Map<String, RunePages>  e = api.getRunes(ids, region);
+                RankedStats             f = api.getStatsRanked(id, region, season);
+                PlayerStatsSummaryList  h = api.getStatsSummary(id, region, season);
+                Map<String, Summoner>   g = api.getSummonerById(ids, region);
+                Map<String, Summoner>   i = api.getSummonerByName(names, region);
+
+                Map<String, List<Team>> j1 = api.getTeamBySummonerId(ids, region);
+                      Map<String, Team> j2 = api.getTeamByTeamId(teamIds, region);
+
+                                Champion k = api.getStaticChampion(1, region);
+                            ChampionList l = api.getStaticChampionList(region);
+                                    Item m = api.getStaticItem(3169, region);
+                                ItemList n = api.getStaticItemList(region);
+                                 Mastery o = api.getStaticMastery(4353, region);
+                             MasteryList p = api.getStaticMasteryList(region);
+                                   Realm q = api.getStaticRealm(region);
+                                    Rune r = api.getStaticRune(5235, region);
+                                RuneList s = api.getStaticRuneList(region);
+                           SummonerSpell t = api.getStaticSummonerSpell(summonerSpellId, region);
+                       SummonerSpellList u = api.getStaticSummonerSpellList(region);
+	}
+
+}

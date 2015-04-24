@@ -1,0 +1,13 @@
+import javax.swing.JFrame;
+
+
+public class MyGui extends JFrame {
+
+	public MyGui(){
+		this.setName("League summoner searcher");
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.pack();
+		this.setVisible(true);
+	}
+	
+}
